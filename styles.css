@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap");
+
+:root
+{
+    --blue: #05386B;
+    --green:#379683;
+    --lightgreen:#5CDB95;
+    --lightergreen:#8EE4AF;
+    --closewhite:#EDF5E1;
+
+}
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color:var(--lightergreen);
+    color:var(--blue);
+}
+/* General styling for all pages */
+.head
+{
+    text-align: right;
+    margin: 0rem;
+    padding: 2rem;
+    background-color: var(--green);
+}
+
+.link
+{
+ padding: 0rem;
+ font-weight: bold;
+ margin: 0rem 0.5rem;
+ text-decoration: none;
+ background-color: var(--green); 
+}
+
+.link-active
+{
+    color:white;
+    font-weight: bold;
+}
+
+nav
+{
+    background-color: var(--green);
+}
+
+
+.container
+
+{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+label
+{
+    font-size: 1.5rem;   
+    font-weight: bold;
+    color:var(--green);
+}
+
+input
+{
+    padding: 0.5rem;
+    border-color:var(--blue);
+    color:black;
+    font-size: 1rem;
+    margin: 2rem;
+}
+  
+h1
+{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 2rem;
+    padding: 1px;
+    color:var(--blue);
+}
+
+h3
+{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding: 1px;
+    color:var(--blue);
+    color: var(--green);
+}
+
+#is-triangle-btn
+{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: 0rem solid var(--green);
+    background-color: var(--green);
+    color: var(--closewhite);
+
+}
+
+
+#check-area-btn
+{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: 0rem solid var(--green);
+    background-color: var(--green);
+    color: var(--closewhite);
+}
+
+
+#submit-answer-btn
+{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: 0rem solid var(--green);
+    background-color: var(--green);
+    color: var(--closewhite);
+}
+
+
+
+#hypotenuse-btn
+{
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: 0rem solid var(--green);
+    background-color: var(--green);
+    color: var(--closewhite);padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10%;
+    border: 0rem solid var(--green);
+    background-color: var(--green);
+    color: var(--closewhite);
+}
+
+p
+{
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align:center;
+}
