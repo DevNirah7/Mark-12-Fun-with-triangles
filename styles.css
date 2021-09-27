@@ -54,6 +54,12 @@ nav
     padding: 2rem;
 }
 
+.container-center
+{
+    max-width: 600px;
+    margin: auto;
+}
+
 
 label
 {
@@ -69,6 +75,12 @@ input
     color:black;
     font-size: 1rem;
     margin: 2rem;
+}
+
+.input-label
+{
+    text-align: center;
+    font: bold;
 }
   
 h1
@@ -118,6 +130,7 @@ h3
 #submit-answer-btn
 {
     padding: 1rem;
+    margin: 1rem auto 3rem auto;
     font-size: 1rem;
     border-radius: 10%;
     border: 0rem solid var(--green);
@@ -147,5 +160,5 @@ p
     color:black;
     font-size: 1rem;
     font-weight: bold;
-    text-align:center;
+    text-align:left;
 }
