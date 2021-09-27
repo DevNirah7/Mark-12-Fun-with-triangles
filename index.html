@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun with Triangles</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+
+<body>
+    <header class="head">
+    <nav>
+        <a class= "link" href="/">Home</a>
+        <a class= "link" href="/quiz.html">Quiz</a>
+        <a class= "link" href="/hypotenuse.html">Hypotenuse</a>
+        <a class= "link" href="/areaOfTriangle.html">Area Of Triangle</a>
+    </nav>
+    </header>   
+    
+    <h1>Is it a Triangle?</h1>
+    <div class="container">
+    <label for="angle1">Angle 1</label>
+    <input type="number" min="0" oninput="validity.valid||(value='');" required class="angle-input">
+    <br>
+    <label for="angle2">Angle 2</label>
+    <input type="number" min="0" oninput="validity.valid||(value='');" required class="angle-input">
+    <br>
+    <label for="angle3">Angle 3</label>
+    <input type="number" min="0" oninput="validity.valid||(value='');" required class="angle-input">
+    <br>
+    <button id="is-triangle-btn">Check</button>
+    <br>
+    <div id="istriangle"></div>
+    </div>
+
+</body>
+<script src="checkTriangle.js"></script>
+
+</html>
