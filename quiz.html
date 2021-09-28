@@ -23,48 +23,34 @@
     <h1>Triangle Quiz</h1>
     <div class="container-center">
     <form class="quiz-form"  name="myForm" onsubmit="return validateMyForm();">
-    <div class="quiz-container">
-        <p>1) What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+    
+        <p>1. What is the third angle for the triangle where Angle 1 = 45° and Angle2 = 45°?</p>
         <label class="input-label"><input type="radio" name="question1" value="45°" required />45°</label>
         <label class="input-label"><input type="radio" name="question1" value="90°" required />90°</label>
         <label class="input-label"><input type="radio" name="question1" value="60°" required />60°</label>
-    </div>
-    <div class="quiz-container">
-        <p>2) If a triangle has an angle of 90 degrees, what is it called?</p>
-        <label class="input-label"><input type="radio" name="question2" value="obtuse" required />obtuse</label>
-        <label class="input-label"><input type="radio" name="question2" value="acute" required />acute </label>
-        <label class="input-label"><input type="radio" name="question2" value="right angled" required />right angled</label>
-    </div>
-    <div class="quiz-container">
-        <p>3) A triangle can have</p>
-        <label class="input-label"><input type="radio" name="question3" value="one right angle" required />one right angle</label>
-        <label class="input-label"><input type="radio" name="question3" value="two right angles" required />two right angles</label>
-    </div>
-    <div class="quiz-container">
-        <p>4) Which of the following can form a right angled triangle?</p>
-        <label class="input-label"><input type="radio" name="question4" value="14, 15, 26" required />14, 15, 26</label>
-        <label class="input-label"><input type="radio" name="question4" value="12, 16, 20" required />12, 16, 20</label>
-    </div>
-    <div class="quiz-container">
-        <p>5) Which of the following triangles are always similar?</p>
-        <label class="input-label"><input type="radio" name="question5" value="Equilateral triangle" required />Equilateral triangle</label>
-        <label class="input-label"><input type="radio" name="question5" value="Isosceles triangle" required />Isosceles triangle</label>
-    </div>
-    <div class="quiz-container">
-        <p>6) If one angle of a triangle is obtuse, then which one of the following is the possible measure of remaining angles?</p>
-        <label class="input-label"><input type="radio" name="question6" value="100" required/>100°</label>
-        <label class="input-label"><input type="radio" name="question6" value="85"/>85°</label>
-    </div>
-    <div class="quiz-container">
-        <p>7) If the largest angle in a triangle is 70°, what is the least possible value of the smallest angle of the triangle?</p>
-        <label class="input-label"><input type="radio" name="question7" value="30" required/>30°</label>
-        <label class="input-label"><input type="radio" name="question7" value="10"/>10°</label>
-    </div>
+    
+    
+        <p>2. If a triangle has an angle of 90 degrees, what is it called?</p>
+        <label class="input-label"><input type="radio" name="question2" value="Obtuse" required />Obtuse</label>
+        <label class="input-label"><input type="radio" name="question2" value="Acute" required />Acute </label>
+        <label class="input-label"><input type="radio" name="question2" value="Right angled" required />Right angled</label>
+    
+    
+        <p>3. A triangle can have</p>
+        <label class="input-label"><input type="radio" name="question3" value="One right angle" required />One right angle</label>
+        <label class="input-label"><input type="radio" name="question3" value="Two right angles" required />Two right angles</label>
+        <label class="input-label"><input type="radio" name="question3" value="Three right angles" required />Three right angles</label>
+    
    
+    
+        <p>4. Which of the following triangles are always similar?</p>
+        <label class="input-label"><input type="radio" name="question4" value="Equilateral triangle" required />Equilateral triangle</label>
+        <label class="input-label"><input type="radio" name="question4" value="Isosceles triangle" required />Isosceles triangle</label>
+        <label class="input-label"><input type="radio" name="question4" value="Scalene triangle" required />Isosceles triangle</label>
+    
     <button id="submit-answer-btn">Submit Answer</button>
     </form>
-    <div id="output"></div>
-    
+    <div class="output"></div>
     </div>
 </body>
 <script src="/quiz.js"></script>

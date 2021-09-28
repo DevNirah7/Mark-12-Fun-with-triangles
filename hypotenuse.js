@@ -1,6 +1,6 @@
 const sides = document.querySelectorAll(".side-input");
 const hypotenuseBtn = document.querySelector("#hypotenuse-btn");
-const outputDiv = document.querySelector("#output")
+const outputDiv = document.querySelector(".output")
 
 function calculateSumOfSquare(a, b) {
   var sumOfSquare = a * a + b * b

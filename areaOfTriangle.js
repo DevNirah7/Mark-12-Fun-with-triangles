@@ -1,6 +1,6 @@
 var sides = document.querySelectorAll(".side-input");
 var checkAreaBtn = document.querySelector("#check-area-btn");
-var outputDiv = document.querySelector("#output");
+var outputDiv = document.querySelector(".output");
 
 
 function areaFormula(a, b) {

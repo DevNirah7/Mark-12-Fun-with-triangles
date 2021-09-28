@@ -17,7 +17,7 @@
     background-color:var(--lightergreen);
     color:var(--blue);
 }
-/* General styling for all pages */
+
 .head
 {
     text-align: right;
@@ -29,6 +29,8 @@
 .link
 {
  padding: 0rem;
+ /* font-family: "Bebas Neue"; */
+ font-size: 1rem;
  font-weight: bold;
  margin: 0rem 0.5rem;
  text-decoration: none;
@@ -38,12 +40,12 @@
 .link-active
 {
     color:white;
-    font-weight: bold;
 }
 
 nav
 {
     background-color: var(--green);
+    
 }
 
 
@@ -57,13 +59,17 @@ nav
 .container-center
 {
     max-width: 600px;
-    margin: auto;
+    margin: 0rem auto 0rem auto;
+    padding: 2rem;
 }
 
 
 label
 {
+    padding: 1rem;
+    margin:auto;
     font-size: 1.5rem;   
+    text-align: left;
     font-weight: bold;
     color:var(--green);
 }
@@ -71,15 +77,31 @@ label
 input
 {
     padding: 0.5rem;
+    margin: auto;
     border-color:var(--blue);
     color:black;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin: 2rem;
 }
 
-.input-label
+.container-center .input-label
 {
-    text-align: center;
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 0rem;
+    display: block;
+    margin: auto;
+    font: bold;
+}
+
+.container .side-input
+{
+    text-align: left;
+    font-size: 1.2rem;
+    display: block;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 1rem auto;
     font: bold;
 }
   
@@ -88,15 +110,15 @@ h1
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    margin: 2rem;
+    margin: 1.8rem;
     padding: 1px;
-    color:var(--blue);
+    color: black;
 }
 
 h3
 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
     margin: 0.5rem;
     padding: 1px;
@@ -109,8 +131,8 @@ h3
     padding: 1rem;
     font-size: 1rem;
     border-radius: 10%;
-    border: 0rem solid var(--green);
-    background-color: var(--green);
+    border: 0rem solid var(--blue);
+    background-color: var(--blue);
     color: var(--closewhite);
 
 }
@@ -121,20 +143,21 @@ h3
     padding: 1rem;
     font-size: 1rem;
     border-radius: 10%;
-    border: 0rem solid var(--green);
-    background-color: var(--green);
+    border: 0rem solid var(--blue);
+    background-color: var(--blue);
     color: var(--closewhite);
 }
 
 
-#submit-answer-btn
+.container-center #submit-answer-btn
 {
     padding: 1rem;
-    margin: 1rem auto 3rem auto;
+    margin: 1rem auto;
+    display: block;
     font-size: 1rem;
     border-radius: 10%;
-    border: 0rem solid var(--green);
-    background-color: var(--green);
+    border: 0rem solid var(--blue);
+    background-color: var(--blue);
     color: var(--closewhite);
 }
 
@@ -145,20 +168,29 @@ h3
     padding: 1rem;
     font-size: 1rem;
     border-radius: 10%;
-    border: 0rem solid var(--green);
-    background-color: var(--green);
-    color: var(--closewhite);padding: 1rem;
+    padding: 1rem;
     font-size: 1rem;
     border-radius: 10%;
-    border: 0rem solid var(--green);
-    background-color: var(--green);
+    border: 0rem solid var(--blue);
+    background-color: var(--blue);
     color: var(--closewhite);
 }
 
 p
 {
-    color:black;
-    font-size: 1rem;
+    color: var(--blue);
+    font-size: 1.2rem;
     font-weight: bold;
     text-align:left;
+}
+
+.output
+{
+    font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    color: var(--green);
+    margin: 2rem;
+    padding:1rem;
+    text-align: center;
 }
